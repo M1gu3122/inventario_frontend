@@ -1,0 +1,46 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+client_secret*.json
+
+# Generated dependencies and outputs
+node_modules/
+.svelte-kit/
+build/
+dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Checks and reports
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+playwright-report/
+/blob-report/
+/playwright/.cache/
+test-results/
+
+# Local runtime data
+*.log
+/pgdata/
+/backups/
+/ocr-models/
+/documents/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
